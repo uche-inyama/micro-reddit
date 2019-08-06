@@ -1,24 +1,14 @@
-# README
+# MICRO-REDDIT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This rails application features a User, Post and Comment Model.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## User Model
+  A user 'has_many' posts and 'has_many' comments.
+  
+## Post Model
+  A post 'belongs_to' a user and 'has_many' comments.
+  
+## Comment Model
+  A comment 'belongs_to' a user and also 'belongs_to' a post.
+  
+  
