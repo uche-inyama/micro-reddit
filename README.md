@@ -16,7 +16,7 @@ User.create(name: "Example User", email: "user@example.com", password: "foobar",
 Post.create(user_id: "user_id", link: "link_address")
 Comment.create(user_id:"user_id", post_id: "post_id", body: "any content")
 ```
-on the console prompt, where item could be User, Post or Comment.
+on the console prompt.
 
 For more details on how to naviagte through the application, please visit
 [link on OdinProject!](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
