@@ -12,8 +12,9 @@ rails console
 You can the create new users, posts or comments by simply typing 
 
 ```
-item.create
-
+User.create(name: "Example User", email: "user@example.com", password: "foobar", password_confirmation: "foobar")
+Post.create(user_id: "user_id", link: "link_address")
+Comment.create(user_id:"user_id", post_id: "post_id", body: "any content")
 ```
 on the console prompt, where item could be User, Post or Comment.
 
